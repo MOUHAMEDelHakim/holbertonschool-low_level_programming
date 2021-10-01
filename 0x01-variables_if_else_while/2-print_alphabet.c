@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main -the last digit of numbers
+ * main -display-the-alphabet a-z
  *
  * Return: 0
  */
