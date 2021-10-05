@@ -16,4 +16,5 @@ void print_times_table(int n);
 int main
 #include <time.h>
 #include <stdlib.h>
+#include <main.h>
 #endif
