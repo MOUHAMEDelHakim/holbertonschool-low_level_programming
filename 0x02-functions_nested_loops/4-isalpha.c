@@ -4,9 +4,9 @@
 * @c: int
 * Return: 0
 */
-int _islower(int c);
+int _isalpha (int c);
 {
-if (c >= 'A' && c <= 'z')
+if (c >= 'a' && c <= 'Z')
 return (1);
 else
 return (0);
