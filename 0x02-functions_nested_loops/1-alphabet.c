@@ -1,4 +1,4 @@
-#include "stdio.h"
+#include "main.h"
 /**
  * print_alphabet - alphabet a-z
  *
@@ -11,14 +11,4 @@ for (ch = 'a' ; ch <= 'z' ; ch++)
 putchar (ch);
 putchar ('\n');
 
-}
-/**
- * main- alphabet a-z
- *
- * Return: 0
- */
-int main(void)
-{
-print_alphabet();
-return (0);
 }
