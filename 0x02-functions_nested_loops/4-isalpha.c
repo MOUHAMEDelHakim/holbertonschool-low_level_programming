@@ -4,10 +4,10 @@
 * @c: int
 * Return: 0
 */
-int _isalpha (int c);
+int _isalpha(int c)
 {
-if (c >= 'a' && c <= 'Z')
-return (1);
-else
-return (0);
+	if ((c < 'z' && c > 'a') || (c < 'Z' && c > 'A'))
+		return (1);
+		else
+			return (0);
 }
