@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * sprint_alphabet_x10 - unction that prints 10 times the alphabet,
+ * print_alphabet_x10 - unction that prints 10 times the alphabet,
  * in lowercase, followed by a new line.
  *
  */
@@ -11,8 +11,9 @@ int i;
 
 for (i = 0; i < 10; i++)
 {
-for (ch = 'a' ; ch <= 'z' ; ch++){
-    putchar (ch);
+for (ch = 'a'; ch <= 'z'; ch++)
+{
+putchar(ch);
 }
 putchar ('\n');
 }
