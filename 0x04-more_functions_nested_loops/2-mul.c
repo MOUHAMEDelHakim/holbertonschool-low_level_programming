@@ -4,7 +4,7 @@
  * @a: number of multiplication
  * @b: number of multiplication
  *
- * Return : a * b
+ * Return: 0
  */
 int mul(int a, int b)
 {
