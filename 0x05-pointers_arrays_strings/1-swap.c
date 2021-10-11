@@ -2,7 +2,7 @@
 /**
  * swap_int - swapping code
  * @a: int
- * @b:int
+ * @b: int
  */
 void swap_int(int *a, int *b)
 {
