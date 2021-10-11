@@ -2,7 +2,7 @@
 /**
  * _puts -  a function that prints a string, in reverse.
  * int - i
- * @s: int
+ * @str: int
  * Return: i
  */
 
@@ -15,7 +15,7 @@ i++;
 return (i);
 }
 {
-putchar(s[i - 1])
-putchar("\n")
+putchar(s[i - 1]);
+putchar("\n");
 i--;
 }
