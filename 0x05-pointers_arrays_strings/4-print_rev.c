@@ -2,7 +2,7 @@
 /**
  * _puts -  a function that prints a string, in reverse.
  * int - i
- * @str: int
+ * @s: int
  * Return: i
  */
 
