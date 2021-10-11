@@ -8,4 +8,5 @@ int _strlen(char *s);
 void print_rev(char *s);
 void puts2(char *str);
 void puts_half(char *str);
+8-print_array.c
 #endif
