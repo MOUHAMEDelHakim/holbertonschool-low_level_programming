@@ -7,6 +7,6 @@
  */
 void _puts(char *str)
 {
-sprintf("%s, str")
-sprintf('\n')
+printf("%s", "str")
+printf("\n")
 }
