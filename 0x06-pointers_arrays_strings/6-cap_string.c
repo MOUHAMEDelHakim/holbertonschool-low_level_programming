@@ -1,30 +1,36 @@
-#include <main.h>
+#include "main.h"
 
 /**
- *cap_string - capitalizes all words of a string.
- *@s: pointer parameter character
- *Return: s variable
+ * cap_string - Capitalizes all words of a string.
+ * @ch: The string to be capitalized.
+ *
+ * Return: A pointer to the changed string.
  */
-char *cap_string(char *s)
+char *cap_string(char *ch)
 {
-int i, j;
-har arr[13] = {',', ';', '.', '!', '?', '"',
-'(', ')', '{', '}', '\n', '\t', ' '};
+	int i = 0;
 
-for (i = 0; s[i]; i++)
-{
-if (s[0] >= 'a' && s[0] <= 'z')
-s[0] -= 32;
+	while (ch[i])
+	{
+		while (!(ch[i] >= 'a' && ch[i] <= 'z'))
+			i++;
 
-for (j = 0; arr[j]; j++)
-{
-if (s[i] == arr[j])
-{
-if (s[i + 1] >= 'a' && s[i + 1] <= 'z')
-s[i + 1] -= 32;
+if (ch[i - 1] == ' ' ||
+ch[i - 1] == '\t' ||
+ch[i - 1] == '\n' ||
+ch[i - 1] == ',' ||
+ch[i - 1] == ';' ||
+ch[i - 1] == '.' ||
+ch[i - 1] == '!' ||
+ch[i - 1] == '?' ||
+ch[i - 1] == '"' ||
+ch[i - 1] == '(' ||
+ch[i - 1] == ')' ||
+ch[i - 1] == '{' ||
+ch[i - 1] == '}' ||
+i == 0)
+ch[i] -= 32;
+i++;
 }
-}
-}
-
-	return (s);
+	return (ch);
 }
