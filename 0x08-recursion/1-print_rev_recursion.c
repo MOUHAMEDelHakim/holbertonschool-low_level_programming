@@ -2,8 +2,8 @@
 /**
  * _print_rev_recursion - a function that prints a string in reverse.
  * @s: The string to be printed.
- * 
- */ 
+ *
+ */
 void _print_rev_recursion(char *s)
 {
 if (*s)
