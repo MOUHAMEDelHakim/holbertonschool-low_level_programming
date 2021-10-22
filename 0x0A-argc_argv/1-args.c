@@ -1,12 +1,13 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * main - program should print a number
  * @argc: int
  * @argv: int
  * return: int
  */
-int main(__attribute__((unused))int argc, char** argv)
+int main(int argc, __attribute__((unused))char *argv[])
 {
-printf("%s\n", argv[0]);
+printf("%d\n", argc);
 return (0);
 }
