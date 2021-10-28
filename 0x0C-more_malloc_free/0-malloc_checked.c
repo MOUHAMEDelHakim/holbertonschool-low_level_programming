@@ -3,12 +3,12 @@
 /**
  * malloc_checked - a fanction allocates memory using.
  * @b : Size of allocation.
- * Return: int
+ * Return: i
  */
 void *malloc_checked(unsigned int b)
 {
-void *int = malloc(b);
-if (int == NULL)
+void *i = malloc(b);
+if (i == NULL)
 exit(98);
-return (int);
+return (i);
 }
