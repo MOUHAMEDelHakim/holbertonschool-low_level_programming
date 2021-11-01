@@ -1,9 +1,9 @@
-#include <dog.h>
+#include "dog.h"
 /**
- *init_dog-  a function that initialize a variable
+ *init_dog- initialize variables
  *@d : struct to initialise
- *@name : dog name
- *@age : dog age
+ *@name : name of the dog
+ *@age : age of the dog
  *@owner : owner of the dog
  *Return: void
  */
