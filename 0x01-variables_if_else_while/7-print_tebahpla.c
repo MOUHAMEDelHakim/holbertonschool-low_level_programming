@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main -display-the-alphabet a-z
+ * main -display-the-alphabet z-a
  *
  * Return: 0
  */
