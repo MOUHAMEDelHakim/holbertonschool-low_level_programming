@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "lists.h"
+
 /**
- * dlistintlen - returnts the nmb of elements
+ * dlistintlen - returns the nmb of elements
  * @h: the pointer.
+ * return: the nmb of elements
  */
 size_t dlistint_len(const dlistint_t *h)
 {
